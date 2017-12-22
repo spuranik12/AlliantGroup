@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Alliantgroup_Works">
+
+	<parameter name="Browser" value="chrome"></parameter>
+
+	<test name="LoginPage_TestCase">
+		<classes>
+			<class name="testClasses.LoginPageTest" />
+			<class name="testClasses.CreateSurveyTemplateTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

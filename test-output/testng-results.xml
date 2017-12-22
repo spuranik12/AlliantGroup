@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Alliantgroup_Works" duration-ms="73672" started-at="2017-12-21T14:31:44Z" finished-at="2017-12-21T14:32:58Z">
+    <groups>
+    </groups>
+    <test name="LoginPage_TestCase" duration-ms="73672" started-at="2017-12-21T14:31:44Z" finished-at="2017-12-21T14:32:58Z">
+      <class name="testClasses.CreateSurveyTemplateTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:testClasses.CreateSurveyTemplateTest@3bfdc050]" name="openBrowser" is-config="true" duration-ms="41108" started-at="2017-12-21T20:01:44Z" finished-at="2017-12-21T20:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openSurveyTemplates()[pri:0, instance:testClasses.CreateSurveyTemplateTest@3bfdc050]" name="openSurveyTemplates" duration-ms="9041" started-at="2017-12-21T20:02:36Z" finished-at="2017-12-21T20:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSurveyTemplates -->
+        <test-method status="PASS" signature="createNewSurveyTemplate()[pri:0, instance:testClasses.CreateSurveyTemplateTest@3bfdc050]" name="createNewSurveyTemplate" duration-ms="7297" started-at="2017-12-21T20:02:45Z" finished-at="2017-12-21T20:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewSurveyTemplate -->
+        <test-method status="PASS" signature="selectClientsForTemplate()[pri:0, instance:testClasses.CreateSurveyTemplateTest@3bfdc050]" name="selectClientsForTemplate" duration-ms="5842" started-at="2017-12-21T20:02:52Z" finished-at="2017-12-21T20:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectClientsForTemplate -->
+      </class> <!-- testClasses.CreateSurveyTemplateTest -->
+      <class name="testClasses.LoginPageTest">
+        <test-method status="PASS" signature="loginwithValidInfo(java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginPageTest@548e7350]" name="loginwithValidInfo" duration-ms="10339" started-at="2017-12-21T20:02:26Z" data-provider="Login with valid credentials" finished-at="2017-12-21T20:02:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@alliantgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[silicus@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidInfo -->
+      </class> <!-- testClasses.LoginPageTest -->
+    </test> <!-- LoginPage_TestCase -->
+  </suite> <!-- Alliantgroup_Works -->
+</testng-results>
