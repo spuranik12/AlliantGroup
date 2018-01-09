@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Alliantgroup_Works" duration-ms="73672" started-at="2017-12-21T14:31:44Z" finished-at="2017-12-21T14:32:58Z">
+  <suite name="Alliantgroup_Works" duration-ms="109829" started-at="2018-01-09T13:12:08Z" finished-at="2018-01-09T13:13:58Z">
     <groups>
     </groups>
-    <test name="LoginPage_TestCase" duration-ms="73672" started-at="2017-12-21T14:31:44Z" finished-at="2017-12-21T14:32:58Z">
+    <test name="AlliantgroupSurvey_TestCase" duration-ms="109829" started-at="2018-01-09T13:12:08Z" finished-at="2018-01-09T13:13:58Z">
       <class name="testClasses.CreateSurveyTemplateTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:testClasses.CreateSurveyTemplateTest@3bfdc050]" name="openBrowser" is-config="true" duration-ms="41108" started-at="2017-12-21T20:01:44Z" finished-at="2017-12-21T20:02:26Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:testClasses.CreateSurveyTemplateTest@5c3bd550]" name="openBrowser" is-config="true" duration-ms="33307" started-at="2018-01-09T18:42:08Z" finished-at="2018-01-09T18:42:41Z">
           <params>
             <param index="0">
               <value>
@@ -18,21 +18,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openSurveyTemplates()[pri:0, instance:testClasses.CreateSurveyTemplateTest@3bfdc050]" name="openSurveyTemplates" duration-ms="9041" started-at="2017-12-21T20:02:36Z" finished-at="2017-12-21T20:02:45Z">
+        <test-method status="PASS" signature="openSurveyTemplates()[pri:0, instance:testClasses.CreateSurveyTemplateTest@5c3bd550]" name="openSurveyTemplates" duration-ms="6082" started-at="2018-01-09T18:42:50Z" finished-at="2018-01-09T18:42:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openSurveyTemplates -->
-        <test-method status="PASS" signature="createNewSurveyTemplate()[pri:0, instance:testClasses.CreateSurveyTemplateTest@3bfdc050]" name="createNewSurveyTemplate" duration-ms="7297" started-at="2017-12-21T20:02:45Z" finished-at="2017-12-21T20:02:52Z">
+        <test-method status="PASS" signature="createNewSurveyTemplate()[pri:0, instance:testClasses.CreateSurveyTemplateTest@5c3bd550]" name="createNewSurveyTemplate" duration-ms="7156" started-at="2018-01-09T18:42:56Z" finished-at="2018-01-09T18:43:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewSurveyTemplate -->
-        <test-method status="PASS" signature="selectClientsForTemplate()[pri:0, instance:testClasses.CreateSurveyTemplateTest@3bfdc050]" name="selectClientsForTemplate" duration-ms="5842" started-at="2017-12-21T20:02:52Z" finished-at="2017-12-21T20:02:58Z">
+        <test-method status="PASS" signature="mapDocumentForTemplate()[pri:0, instance:testClasses.CreateSurveyTemplateTest@5c3bd550]" name="mapDocumentForTemplate" duration-ms="9798" started-at="2018-01-09T18:43:04Z" finished-at="2018-01-09T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapDocumentForTemplate -->
+        <test-method status="PASS" signature="selectClientsForTemplate()[pri:0, instance:testClasses.CreateSurveyTemplateTest@5c3bd550]" name="selectClientsForTemplate" duration-ms="5837" started-at="2018-01-09T18:43:13Z" finished-at="2018-01-09T18:43:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectClientsForTemplate -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClasses.CreateSurveyTemplateTest@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="1263" started-at="2018-01-09T18:43:57Z" finished-at="2018-01-09T18:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- testClasses.CreateSurveyTemplateTest -->
+      <class name="testClasses.SurveyTest">
+        <test-method status="PASS" signature="navigateToSurveyPage()[pri:0, instance:testClasses.SurveyTest@77cd7a0]" name="navigateToSurveyPage" duration-ms="25943" started-at="2018-01-09T18:43:19Z" finished-at="2018-01-09T18:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSurveyPage -->
+        <test-method status="PASS" signature="completeSurvey()[pri:0, instance:testClasses.SurveyTest@77cd7a0]" name="completeSurvey" duration-ms="11447" started-at="2018-01-09T18:43:45Z" finished-at="2018-01-09T18:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeSurvey -->
+      </class> <!-- testClasses.SurveyTest -->
       <class name="testClasses.LoginPageTest">
-        <test-method status="PASS" signature="loginwithValidInfo(java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginPageTest@548e7350]" name="loginwithValidInfo" duration-ms="10339" started-at="2017-12-21T20:02:26Z" data-provider="Login with valid credentials" finished-at="2017-12-21T20:02:36Z">
+        <test-method status="PASS" signature="loginwithValidInfo(java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginPageTest@4667ae56]" name="loginwithValidInfo" duration-ms="8949" started-at="2018-01-09T18:42:41Z" data-provider="Login with valid credentials" finished-at="2018-01-09T18:42:50Z">
           <params>
             <param index="0">
               <value>
@@ -49,6 +67,6 @@
           </reporter-output>
         </test-method> <!-- loginwithValidInfo -->
       </class> <!-- testClasses.LoginPageTest -->
-    </test> <!-- LoginPage_TestCase -->
+    </test> <!-- AlliantgroupSurvey_TestCase -->
   </suite> <!-- Alliantgroup_Works -->
 </testng-results>

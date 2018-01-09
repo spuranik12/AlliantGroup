@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import utilities.ReadPropertiesFile;
 import common.BasePage;
 import common.BaseTest;
 
@@ -60,26 +61,26 @@ public class NewSurveyTemplatePage extends BasePage{
 		return createSurveyTemplateHeading.getText(); 
 	}
 
-	public void enterSurveyNameAndSectionInfo(){ 
+	public void enterSurveyNameAndSectionInfo() throws Exception{ 
 		actions.applyDefaultImplicitWait();
-		surveyNameField.sendKeys(Keys.chord(Keys.CONTROL + "a"), "Automated Test Template");
+		surveyNameField.sendKeys(Keys.chord(Keys.CONTROL + "a"), ReadPropertiesFile.GetValue("SurveyName"));
 		actions.applyDefaultImplicitWait();
-		surveySectionNameField.sendKeys(Keys.chord(Keys.CONTROL + "a"), "QA_SECTION");
+		surveySectionNameField.sendKeys(Keys.chord(Keys.CONTROL + "a"), ReadPropertiesFile.GetValue("SurveySectionName"));
 		actions.applyDefaultImplicitWait();
-		surveySectionInstTxtArea.sendKeys("Software Automation related questions with multiple choices.");
+		surveySectionInstTxtArea.sendKeys(ReadPropertiesFile.GetValue("SurveySectionInstruction"));
 	}
 
-	public void createSurveyQuestions() throws InterruptedException{ 
+	public void createSurveyQuestions() throws Exception{  
 		actions.applyDefaultImplicitWait();
 		BaseTest.driver.switchTo().frame(0);
 		actions.applyDefaultImplicitWait();
-		surveyQuestionArea.sendKeys(Keys.chord(Keys.CONTROL + "a"), "Tools used for automation testing ?");
+		surveyQuestionArea.sendKeys(Keys.chord(Keys.CONTROL + "a"), ReadPropertiesFile.GetValue("SurveyQuestion"));
 		BaseTest.driver.switchTo().defaultContent();
 		actions.applyDefaultImplicitWait();
 		surveyQuestionReqBox.click();
 		actions.applyDefaultImplicitWait();
-		surveyAnsFirstOption.sendKeys("TestLink");
-		surveyAnsSecondOption.sendKeys("Selenium WebDriver");
+		surveyAnsFirstOption.sendKeys(ReadPropertiesFile.GetValue("SurveyQuestionFirstAnswer"));
+		surveyAnsSecondOption.sendKeys(ReadPropertiesFile.GetValue("SurveyQuestionSecondAnswer"));
 		surveyAnsEligible.click();
 	}
 	

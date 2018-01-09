@@ -2,14 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Alliantgroup_Works]">
   <parameter name="Browser" value="chrome"/>
-  <test name="LoginPage_TestCase(failed)">
+  <test name="AlliantgroupSurvey_TestCase(failed)">
     <classes>
-      <class name="testClasses.CreateSurveyTemplateTest">
+      <class name="testClasses.LoginPageTest">
         <methods>
-          <include name="selectClientsForTemplate"/>
+          <include name="loginwithValidInfo"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- testClasses.CreateSurveyTemplateTest -->
+      </class> <!-- testClasses.LoginPageTest -->
     </classes>
-  </test> <!-- LoginPage_TestCase(failed) -->
+  </test> <!-- AlliantgroupSurvey_TestCase(failed) -->
 </suite> <!-- Failed suite [Alliantgroup_Works] -->

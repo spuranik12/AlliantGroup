@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testClasses.CreateSurveyTemplateTest">
+      <class name="testClasses.SurveyTest">
         <methods>
-          <include name="createNewSurveyTemplate"/>
-          <include name="openSurveyTemplates"/>
-          <include name="selectClientsForTemplate"/>
+          <include name="completeSurvey"/>
+          <include name="navigateToSurveyPage"/>
         </methods>
-      </class> <!-- testClasses.CreateSurveyTemplateTest -->
+      </class> <!-- testClasses.SurveyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

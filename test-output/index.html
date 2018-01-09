@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +101,27 @@
                     <div class="method-list-content passed suite-Alliantgroup_Works">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alliantgroup_Works" title="testClasses.SurveyTest" hash-for-method="completeSurvey">completeSurvey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Alliantgroup_Works" title="testClasses.CreateSurveyTemplateTest" hash-for-method="createNewSurveyTemplate">createNewSurveyTemplate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Alliantgroup_Works" title="testClasses.LoginPageTest" hash-for-method="loginwithValidInfo(admin@alliantgroup.com, silicus@123)">loginwithValidInfo(admin@alliantgroup.com, silicus@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alliantgroup_Works" title="testClasses.CreateSurveyTemplateTest" hash-for-method="mapDocumentForTemplate">mapDocumentForTemplate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alliantgroup_Works" title="testClasses.SurveyTest" hash-for-method="navigateToSurveyPage">navigateToSurveyPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -146,6 +161,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="mapDocumentForTemplate">
+                  </a> <!-- mapDocumentForTemplate -->
+                  <span class="method-name">mapDocumentForTemplate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="openSurveyTemplates">
                   </a> <!-- openSurveyTemplates -->
                   <span class="method-name">openSurveyTemplates</span>
@@ -176,6 +198,28 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Alliantgroup_Works-class-passed -->
+          <div class="suite-Alliantgroup_Works-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.SurveyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeSurvey">
+                  </a> <!-- completeSurvey -->
+                  <span class="method-name">completeSurvey</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToSurveyPage">
+                  </a> <!-- navigateToSurveyPage -->
+                  <span class="method-name">navigateToSurveyPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Alliantgroup_Works-class-passed -->
         </div> <!-- panel Alliantgroup_Works -->
         <div panel-name="test-xml-Alliantgroup_Works" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -187,12 +231,13 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Alliantgroup_Works&quot;&gt;
   &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
-  &lt;test name=&quot;LoginPage_TestCase&quot;&gt;
+  &lt;test name=&quot;AlliantgroupSurvey_TestCase&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testClasses.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;testClasses.CreateSurveyTemplateTest&quot;/&gt;
+      &lt;class name=&quot;testClasses.SurveyTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginPage_TestCase --&gt;
+  &lt;/test&gt; &lt;!-- AlliantgroupSurvey_TestCase --&gt;
 &lt;/suite&gt; &lt;!-- Alliantgroup_Works --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -204,7 +249,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">LoginPage_TestCase (2 classes)</span>
+                <span class="test-name">AlliantgroupSurvey_TestCase (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -230,28 +275,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginwithValidInfo')
-data.setCell(0, 2, 'testClasses.LoginPageTest')
-data.setCell(0, 3, 10339);
+data.setCell(0, 1, 'navigateToSurveyPage')
+data.setCell(0, 2, 'testClasses.SurveyTest')
+data.setCell(0, 3, 25943);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'openSurveyTemplates')
-data.setCell(1, 2, 'testClasses.CreateSurveyTemplateTest')
-data.setCell(1, 3, 9041);
+data.setCell(1, 1, 'completeSurvey')
+data.setCell(1, 2, 'testClasses.SurveyTest')
+data.setCell(1, 3, 11447);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createNewSurveyTemplate')
+data.setCell(2, 1, 'mapDocumentForTemplate')
 data.setCell(2, 2, 'testClasses.CreateSurveyTemplateTest')
-data.setCell(2, 3, 7297);
+data.setCell(2, 3, 9798);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'selectClientsForTemplate')
-data.setCell(3, 2, 'testClasses.CreateSurveyTemplateTest')
-data.setCell(3, 3, 5842);
+data.setCell(3, 1, 'loginwithValidInfo')
+data.setCell(3, 2, 'testClasses.LoginPageTest')
+data.setCell(3, 3, 8949);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createNewSurveyTemplate')
+data.setCell(4, 2, 'testClasses.CreateSurveyTemplateTest')
+data.setCell(4, 3, 7156);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'openSurveyTemplates')
+data.setCell(5, 2, 'testClasses.CreateSurveyTemplateTest')
+data.setCell(5, 3, 6082);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectClientsForTemplate')
+data.setCell(6, 2, 'testClasses.CreateSurveyTemplateTest')
+data.setCell(6, 3, 5837);
 window.suiteTableData['Alliantgroup_Works']= { tableData: data, tableDiv: 'times-div-Alliantgroup_Works'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Alliantgroup_Works">
               </div> <!-- times-div-Alliantgroup_Works -->
             </div> <!-- times-div -->
@@ -266,12 +323,23 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Alliantgroup_Works" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">testClasses.LoginPageTest</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.SurveyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
                 <span class="ignored-method-name">openBrowser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
@@ -294,23 +362,45 @@ return data;
               <div class="chronological-class-name">testClasses.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginwithValidInfo(admin@alliantgroup.com, silicus@123)</span>
-                <span class="method-start">41146 ms</span>
+                <span class="method-start">33342 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testClasses.CreateSurveyTemplateTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openSurveyTemplates</span>
-                <span class="method-start">51487 ms</span>
+                <span class="method-start">42293 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createNewSurveyTemplate</span>
-                <span class="method-start">60529 ms</span>
+                <span class="method-start">48375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mapDocumentForTemplate</span>
+                <span class="method-start">55532 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectClientsForTemplate</span>
-                <span class="method-start">67827 ms</span>
+                <span class="method-start">65333 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.SurveyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigateToSurveyPage</span>
+                <span class="method-start">71171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">completeSurvey</span>
+                <span class="method-start">97115 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.CreateSurveyTemplateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">108563 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

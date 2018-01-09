@@ -4,10 +4,11 @@
 
 	<parameter name="Browser" value="chrome"></parameter>
 
-	<test name="LoginPage_TestCase">
+	<test name="AlliantgroupSurvey_TestCase">
 		<classes>
 			<class name="testClasses.LoginPageTest" />
 			<class name="testClasses.CreateSurveyTemplateTest" />
+			<class name="testClasses.SurveyTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
